@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link{
+  margin-left: 30px;
+}
+/* .row-unique{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin: 0 auto;
+} */
+ #supportHero{
+  background-color:rgb(56,126,209);
+  color:white;
+ }
+ #supportHero a{
+  color:white;
+  margin:15px;
+ }
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportHero input{
+  padding:20px 50px;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+}
+/* #chargesAccount{
+  border:1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+} */
+#charges{
+  border:0.5px solid #ddd;
+  border-radius: 3px;
+ 
+ 
+}
+#chargesAccount{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border:none;
+   margin-left: 1%;
+}
+.table td{
+  border:none;
+}
+.table tr{
+  line-height: 35px;
+}
+#dematCharge{
+  border:1px solid #ddd;
+  border-radius: 3px;
+  width:81%;
+ 
+
+}
+#demat{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border:none;
+  margin-left:12.5%; 
+  /* margin-right:8.5%; */
+}
+#optional{
+  border:1px solid #ddd;
+  margin-left:7%;
+  width:80%;
+}
+#optinalcharge h2{
+  margin-left:6.4%;
+  
+}
+/* .table-cal{
+  border:1px solid #ddd;
+   
+} */
+ .table-cal{
+  display: inline;
+  display: flex;
+  /* justify-content: baseline; */
+  margin-left:6% ;
+ }
+
