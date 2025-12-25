@@ -24,7 +24,7 @@ const data={
 
 
 useEffect(()=>{
-  axios.get("http://localhost:3000/allHoldings").then((res)=>{
+  axios.get("http://localhost:5000/allHoldings").then((res)=>{
     console.log(res.data);
     setAllHoldings(res.data)
   })
